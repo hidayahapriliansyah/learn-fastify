@@ -1,0 +1,17 @@
+kita mau bikin api sederhana yang mencakup
+- authentication
+- error handling
+- middleware
+- routing group OK
+
+routing seperti ini
+/auth
+  - post /signin (tanpa auth)
+  - post /signup (tanpa auth)
+  - get /logout (with auth)
+- post /item (with auth) kalau gak ada authnya error
+- get /item (with auth) kalau gak ada authnya error
+- get /item/:id (with auth) ---- kalau item gak ada error not found
+- update /item (with auth)
+- delete /item (with auth)
+
